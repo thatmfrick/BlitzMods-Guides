@@ -1,3 +1,3 @@
 ## Guides 📚
 
-- [Android Modding Guide](docs/android.md)
+- [Android Modding Guide](docs/Android.md)

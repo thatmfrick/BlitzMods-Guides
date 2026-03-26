@@ -2,3 +2,8 @@
 
 # List of guides 👇
 - [Android Modding Guide](docs/Android.md)
+
+## Links
+
+- [Website](https://blitz-mods.com)
+- [Our Discord server](https://discord.gg/AuJp6fQE)

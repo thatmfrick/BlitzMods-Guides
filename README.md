@@ -3,8 +3,8 @@
 > [!NOTE]
 > **Quick Links**
 > - [Info](#before-modding-ℹ️)
-> - [Tools](#tools-and-apps-we-need-🧰)
-> - [Shizuku](#shizuku-setup-📋)
+> - [Tools](#tools-and-apps-we-need)
+> - [Shizuku](#shizuku-setup)
 > - [File system](#quick-file-system-info-ℹ️)
 > - [Plug&Play](#install-plugplay-modifications)
 > - [non-Plug&Play](#install-non-plugplay-modifications)
@@ -26,7 +26,7 @@
 >  2. **~~Rooted device~~** ❌ too risky/and unnecessary for our purposes
 >  3. **A tool like Shizuku** ✅ No PC required and easy setup
 
-## Tools and Apps We Need 🧰
+## Tools and Apps We Need 🧰 <a id="tools-and-apps-we-need"></a>
 
 > [!IMPORTANT]
 > **Advanced File System** 🗂️
@@ -51,7 +51,7 @@
 > - [*BINT*](https://drive.usercontent.google.com/download?id=1k1Js2UHQbFMUWoGPxH_Yh8FPdih7nD6X&export=download&authuser=0&confirm=t&uuid=2be0288c-ab35-47cd-a0b2-867956c13c28&at=ANTm3cye_-OhWNtfcXNR8REt4gTf:1768901119905) ✅ Decompresses modded files to pack in the `.apk`.
 > - Better tools will be available soon 👀
 
-## Shizuku Setup 📋
+## Shizuku Setup 📋 <a id="shizuku-setup"></a>
 
 - Once **Shizuku** is installed, we need to choose a method to enable and start it.
 - We will use the `Wireless Debugging method`

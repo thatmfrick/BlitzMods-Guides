@@ -56,19 +56,20 @@
 - Once **Shizuku** is installed, we need to choose a method to enable and start it.
 - We will use the `Wireless Debugging method`
 
-![Wireless Debug](media/main.png)
+<img width="597" height="976" alt="main" src="https://github.com/user-attachments/assets/ec7461ac-6978-4353-87b8-b8d7facd41bc" />
 
 ### Step 1 - Pairing 🔗
 
 1. Press the ***`Pairing button`***
 2. You need to enable Shizuku to post notifications
 
-   ![notifications](media/notify.jpg)
+   ![notify](https://github.com/user-attachments/assets/05c57166-c281-4199-9209-d3caf7bf111f)
    - Tap on ***`Notification options`*** and enable it.
    - Go back to the `Pairing` page.
 3. You should now see this screen:
 
-   ![pair](media/pair.jpg)
+   ![pair](https://github.com/user-attachments/assets/9e657113-286d-454d-b813-972dd45eaab7)
+
 
 > [!WARNING]
 > **If you encounter any issues regarding network permissions, refer to the section with the ⚠️ symbol.**
@@ -86,12 +87,12 @@
    2. Tap on it.
 6. You should see the option ***`Pair device with pairing code`***.
 
-   ![wd](media/code.jpg)
+   ![code](https://github.com/user-attachments/assets/8805a5e3-8743-468f-862b-d0b0d2f5e0ff)
    1. Tap on the option, and a six digit code will appear along with a notification from Shizuku prompting you to enter the code.
    2. Type the code and Send.
    3. Below the **`Pair device with pairing code`** you should see Shizuku listed in the paired devices section.
 
-   ![pair](paired.jpg)
+   ![paired](https://github.com/user-attachments/assets/4307f4e2-8943-404d-b5ec-fb7917d23252)
 7. Go back to Shizuku.
 
 > [!NOTE]
@@ -102,7 +103,7 @@
 1. Press on **`Start`**.
 2. You will see this window:
 
-   ![success](media/start.jpg)
+   ![start](https://github.com/user-attachments/assets/5e746a88-7857-469f-b2d5-6bf3cb266d98)
 
 > [!NOTE]
 > **Shizuku is fully working** ✅
@@ -142,14 +143,15 @@
    1. If you see the `net.wargaming.wot.blitz` folder on both sides, you can proceed to the [extraction step](#step-2---extraction) (you are using the Play Store version).
    2. If you have the Wargaming/Galaxy Store version, you will notice a name mismatch.
 
-   ![name-diff](paths-diff.jpg)
+   ![paths-diff](https://github.com/user-attachments/assets/e9ec91cc-0052-4b9f-8721-503f29a9a32e)
 
 > [!TIP]
 > **Fix Folder Name Mismatch**
 > - ***Solution 1***
->   - One tap on both folders, and you will have the matching `files` folder. ![match](media/files.jpg)
+>   - One tap on both folders, and you will have the matching `files` folder. ![match](https://github.com/user-attachments/assets/b6b1de46-b98e-46e3-9a0f-8b57f062451c)
+
 > - ***Solution 2***
->   - Hold the `net.wargaming.wot.blitz` and select rename to change it to `app.wotblitz.com` (or the Galaxy store equivalent). ![rename](media/rename-export.jpg)
+>   - Hold the `net.wargaming.wot.blitz` and select rename to change it to `app.wotblitz.com` (or the Galaxy store equivalent). ![rename-export](https://github.com/user-attachments/assets/bc0b3ff7-0823-4045-a88c-2185ec063cab)
 
 ### Step 2 - Extraction
 
@@ -158,12 +160,13 @@
 2. Confirm that you want to extract files into `/storage/emulated/0/Android/data/<your game version>/` or `/storage/emulated/0/Android/data/<your game version>/files/` if you want to extract the **files** folder.
 3. Make sure to select **`Copy and replace`** and **`Apply to subsequent conflicts`**, then press OK.
 
-   ![merge](media/merge.jpg)
+   ![merge](https://github.com/user-attachments/assets/3b14b1d9-f1f8-4097-bfd4-32f5aa3e8cb4)
 
 > [!NOTE]
 > Congrats, your mod is installed ✅
 >
-> ![leo](media/leo.jpg)
+> ![leo](https://github.com/user-attachments/assets/d2f3c8fa-79c2-43ac-a2b4-eff2292c1d1f)
+
 
 ## Install non-Plug&Play Modifications
 
@@ -185,7 +188,8 @@
 >   1. The modification does not appear in the game, such as UI/GFX modifications (but also others).
 >   2. The modification appears (if installed as [Plug&Play](#install-plugplay-modifications)) but all the textures are missing; this is typical for tanks and hangar modifications.
 >
->   ![error](media/error.jpg)
+>   ![error](https://github.com/user-attachments/assets/6c5bf23e-fde4-4c7b-8eb9-7c7c0ac32532)
+
 
 ### Step 1 - Download and Sign the `.apk`
 
@@ -194,10 +198,11 @@
 3. Download and install the `.dvpl` converter, [*BINT*](https://drive.usercontent.google.com/download?id=1k1Js2UHQbFMUWoGPxH_Yh8FPdih7nD6X&export=download&authuser=0&confirm=t&uuid=2be0288c-ab35-47cd-a0b2-867956c13c28&at=ANTm3cye_-OhWNtfcXNR8REt4gTf:1768901119905)
 4. It's optional but recommended to rename the downloaded `.apk`.
 
-   ![renamed](media/rename.jpg)
+   ![rename](https://github.com/user-attachments/assets/aa5706f8-1bda-4979-a7ef-d1eeeb7f99fc)
+
 5. Hold the `.apk` and tap on ***Sign***
 
-   ![sign](media/sign-opt.jpg)
+   ![sign-opt](https://github.com/user-attachments/assets/e92c7ff1-1be0-40b8-8cb4-34608ae32c99)
 
 > [!CAUTION]
 > **Careful, this is the most important step**
@@ -208,7 +213,7 @@
 > - Enable `Remember signing options for this package name ...`
 > - Press OK
 >
-> ![sign-final](final-sign.jpeg)
+> ![final-sign](https://github.com/user-attachments/assets/1e8879ab-c3d6-479e-af17-4338623c955a)
 
 6. In the `Download` folder, you will now find the "old" non-signed `.apk` and the newly signed one `_sign.apk`.
    - To avoid mistakes, you may remove the non-`_signed` `.apk`.
@@ -223,17 +228,19 @@
 1. Press on the `.zip` of the mod and select `Extract to...`.
 2. In the `Extract` window, choose `Extract to current directory` and press OK.
 
-   ![extract](media/extract-to.jpg)
+   ![extract-to](https://github.com/user-attachments/assets/27cd253a-9b60-490f-8e1e-9e299b66a8d5)
+
 3. Open the `.dvpl` converter and select `EXTRACT FROM DVPL`.
 4. Navigate in the Download folder; you should see the previously extracted modification in the `net.wargaming.wot.blitz` folder.
    - Tap on it
 
-   ![folder](media/selectfolder.jpg)
+   ![selectfolder](https://github.com/user-attachments/assets/3f4214bf-4925-485a-bdde-0c95901dbd6f)
+
    - When you see this press `CONFIRM`
    - The program will decompress the files, creating a copy of the `net.wargaming.wot.blitz` folder (containing decompressed files) named `net.wargaming.wot.blitz_NORMAL`
 5. If everything was done correctly, you should see the following in the Download folder:
 
-   ![2folders](converted.jpeg)
+   ![converted](https://github.com/user-attachments/assets/aaebda85-5cc5-401d-9d63-d3e63739fb5f)
 
 ### Step 3 - Install the Modification
 
@@ -246,21 +253,24 @@
   1. Open the **Download** folder on both sides of MT Manager.
   2. On one side, tap on the `net.wargaming.wot.blitz_NORMAL` 🟢 folder and navigate to the `packs` folder:
 
-     ![packs](packs.jpg)
+     ![packs](https://github.com/user-attachments/assets/ca624958-2de0-47fd-8da4-e1bff13704c5)
+
      - In this folder, you will see the `3d` folder (or more if the mod requires other files/folders).
   3. On the other side tap on the signed `.apk`, press `view`, and navigate to the `Data` folder:
 
-     ![data](media/Data.jpg)
+     ![Data](https://github.com/user-attachments/assets/75b9dd75-0ac9-47af-bad3-7ebd4fd83745)
+
   4. At this point you should see a match of folders on both sides (`3d | 3d`).
 
-     ![match data](data-match.jpg)
+     ![Data-match](https://github.com/user-attachments/assets/c27165ef-8704-4333-9acf-5c702001eb7c)
+
   5. Hold the mod's `3d` folder and press on **`Add`**.
 
 > [!CAUTION]
 > **Make sure to enable `AUTO SIGN`; it's very important!**
 > - This will apply the signing options used for installing the `.apk`, allowing the system to update the current game without any conflicts when we install the `.apk` with the mod.
 >
-> ![add+sign](media/Add-Sign.png)
+> <img width="1120" height="690" alt="Add-Sign" src="https://github.com/user-attachments/assets/e02081d4-1bc1-44b4-9bf3-aacbe20afcbd" />
 
 > [!TIP]
 > **What if we have more files/folders than just the single `3d` folder?**
@@ -285,7 +295,8 @@
 > [!NOTE]
 > **If everything was done correctly (and any issues have been fixed), you should see the modifications in the game.**
 >
-> ![success](media/mod-success.png)
+> <img width="834" height="403" alt="mod-success" src="https://github.com/user-attachments/assets/2fbefe9e-0120-4b92-8878-0658cbf9a29f" />
+
 
 ## What happens if an update gets released?
 
@@ -298,16 +309,12 @@
 > - ***Wargaming (.apk)***
 >   1. When an update is released, you will have to download the [latest version](https://wotblitz-gc.gcdn.co/wotbp/wotblitz_11.16.1.314_1fd5db155ca2582b4210141fc90357b316fccd83.apk) of the game.
 >
->      ![update](update.png)
+>      <img width="1600" height="862" alt="update" src="https://github.com/user-attachments/assets/18e95255-eb27-412b-9c01-ecd1a6610edf" />
+
 >   2. After that, you need to sign the new version by repeating [Step 1](#step-1---download-and-sign-the-apk).
 >   3. Then, you can remove any unnecessary `.apk(s)`.
 >
->      ![remove](ok-version.jpeg)
+>      ![ok-version](https://github.com/user-attachments/assets/9105b657-d20b-423d-8979-24c0b98c2990)
+
 >   4. Finally, you will need to repeat [Step 2](#step-2---download-extract-and-decompress-the-modification) and [Step 3](#step-3---install-the-modification) to reinstall the modification(s) you had before -> New version = all mods installed in the old `.apk` are gone.
 >      - You can omit the installation of the mod in `Android/data` if you see the [texture error](#before-proceeding-ℹ️).
-
----
-
-If this guide helped you out feel free to support my work 🙂
-
-👇 https://www.paypal.me/thatmfrick

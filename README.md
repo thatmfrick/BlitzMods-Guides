@@ -1,3 +1,3 @@
-## [⚡ BlitzMods](https://blitz-mods.com) Guides 📚
+# ⚡ BlitzMods Guides 📚
 
 - [Android Modding Guide](docs/Android.md)

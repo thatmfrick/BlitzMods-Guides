@@ -2,15 +2,15 @@
 
 > [!NOTE]
 > **Quick Links**
-> - [Info](#before-modding-ℹ️)
+> - [Info](#before-modding)
 > - [Tools](#tools-and-apps-we-need)
 > - [Shizuku](#shizuku-setup)
-> - [File system](#quick-file-system-info-ℹ️)
+> - [File system](#file-system-info)
 > - [Plug&Play](#install-plugplay-modifications)
 > - [non-Plug&Play](#install-non-plugplay-modifications)
 > - [Updates](#what-happens-if-an-update-gets-released)
 
-## Before Modding ℹ️
+## Before Modding ℹ️ <a id="before-modding"></a>
 
 > [!NOTE]
 > **Android versions <= 10?**
@@ -114,7 +114,7 @@
 > **Plug&Play is a [Blitz-Mods](https://blitz-mods.com/mod/new) tag used to identify modifications that do not need to be packed in the `.apk` archive of the game.**
 > - These modifications can be placed directly in the `Android/data` folder and will work seamlessly, similar to the Drag&Drop action we perform on a PC.
 
-### Quick File System Info ℹ️
+### Quick File System Info ℹ️ <a id="file-system-info"></a>
 
 > [!NOTE]
 > **Useful Information Before Modding**

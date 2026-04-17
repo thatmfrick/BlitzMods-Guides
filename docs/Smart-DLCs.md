@@ -3,8 +3,8 @@
 ## Some info
 
 > [!NOTE]
-> In some updateds the developers releases some of the content in the packs folder, this usually happens when there are some bug fixes or events that will be later removed or merged in the Data folder when a major update is released.
-> The packs folder has the same structure of the Data folder and if you take a look you may notice that some files are actually the same, when this happens the game will look for the file in the packs folder ignoring the one in the Data folder, so if a modification has a file that is in both Data and packs folder in order to work needs to be placed in the packs folder.
+> In some updates the developers release some of the content in the packs folder, this usually happens when there are some bug fixes or events that will be later removed or merged in the Data folder when a major update is released.
+> The packs folder has the same structure of the Data folder and if you take a look you may notice that some files are actually the same (same file name but not in the content), when this happens the game will look for the file in the packs folder ignoring the one in the Data folder, so if a modification has a file that is in both Data and packs folder in order to work needs to be placed in the packs folder.
 
 ## Packs folder location
 
@@ -12,6 +12,8 @@
 - Windows: `C:/Users/<your username>/AppData/Local/wotblitz/packs/`
 - macOS: `/Users/<your username>/Library/Application Support/net.wargaming.wotblitz.macos/DAVAProject/packs`
 - Android: check the [Android Modding Guide](https://github.com/thatmfrick/BlitzMods-Guides/blob/main/docs/Android.md).
+
+On Android is the standard, this is done for limiting apk size in the playstore.
 
 ## What to do if a mod is not working?
 
@@ -23,15 +25,15 @@
 1. Download the mod and simply install it in the packs folder: <img width="1890" height="565" alt="Screenshot_20260410_105942" src="https://github.com/user-attachments/assets/5534d026-0a1f-411b-8c03-95b97a0917df" />
 2. Install the modification also in the Data folder.
 > [!WARNING]
-> You can skip this step if you have previously downloaded the modification (updated) in the Data folder and you noticed that it wasn't working, just intall into packs folder than and you are ready to go -> if the mod is not working check before if the packs folder is there, if is not than the mod is outdated or you have installed it incorrectly.
+> You can skip this step if you have previously downloaded the modification in the Data folder and you noticed that it wasn't working. Just intall into packs folder than and you are ready to go -> if the mod is not working check if the packs folder is there, if is not than the mod is outdated or you have installed it incorrectly in the Data folder.
 
 ### Solution 2
 
 If you don't want to install modifications here and there during a micropatch just do this trick:
-**MOVE** to the **Data** folder those folders.
+**MOVE** to the **Data** folder those folders and files that are not the ones below.
 <img width="2390" height="623" alt="Screenshot_20260410_111744" src="https://github.com/user-attachments/assets/678ed837-5c9f-4d42-8935-d35f2a9d3ddb" />
 
 > [!IMPORTANT]
-> **DO NOT MOVE** those 4 files or the game will download at the startup all the packs folder content you moved to Data so you have done it for nothing...<img width="886" height="243" alt="Screenshot_20260410_112125" src="https://github.com/user-attachments/assets/ac832f24-b32d-456f-9a30-a9da7ccf94db" />
-
+> **DO NOT MOVE** those 4 files or the game will download at the startup all the packs folder content you moved to Data and the modification that you may have installed will stop working again.<img width="886" height="243" alt="Screenshot_20260410_112125" src="https://github.com/user-attachments/assets/ac832f24-b32d-456f-9a30-a9da7ccf94db" />
+- ‼️If you want to delete some mods you placed in the packs folder than just delete those files, on Android (in data folder) just delete the `.txt' file and all the modifications will be replaced by the original game files (download) once you open the game.
 
